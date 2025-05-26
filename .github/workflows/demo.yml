@@ -38,5 +38,5 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: dist-files
-          path: dist
+          path: .
       - run: ls -R
